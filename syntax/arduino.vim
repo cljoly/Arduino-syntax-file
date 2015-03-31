@@ -28,7 +28,7 @@ else
 endif
 
 syn keyword arduinoConstant  BIN CHANGE DEC DEFAULT EXTERNAL FALLING HALF_PI HEX
-syn keyword arduinoConstant  HIGH INPUT INTERNAL INTERNAL1V1 INTERNAL2V56 LOW
+syn keyword arduinoConstant  HIGH INPUT INPUT_PULLUP INTERNAL INTERNAL1V1 INTERNAL2V56 LOW
 syn keyword arduinoConstant  LSBFIRST MSBFIRST OCT OUTPUT PI RISING TWO_PI
 
 syn keyword arduinoFunc      analogRead analogReference analogWrite
